@@ -1,0 +1,19 @@
+{
+  "name"       : "stubapi-node",
+  "author"     : "WhiteTrefoil <whitetrefoil@gmail.com>",
+  "version"    : "0.1.0-alpha.1",
+  "description": "A mock server to help web page development.",
+  "main"       : "lib/index.js",
+  "homepage"   : "https://github.com/whitetrefoil/stubapi-node#readme",
+  "repository" : {
+    "type": "git",
+    "url" : "git+https://github.com/whitetrefoil/stubapi-node.git"
+  },
+  "bugs"       : {
+    "url": "https://github.com/whitetrefoil/stubapi-node/issues"
+  },
+  "scripts"    : {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license"    : "ISC"
+}
