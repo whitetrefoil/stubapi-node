@@ -208,3 +208,10 @@ local.properties
 
 
 ### Project
+~playground/
+docs/
+test_results/
+lib/
+config/*.json
+!config/*.example.json
+!config/example.json
