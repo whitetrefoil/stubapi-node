@@ -73,7 +73,7 @@ The most important function in this phase is request validation.
 * Use [JSONSchema](http://json-schema.org/) to validate.
 * Use some simple rules (e.g. `{"name": "string", "age": "number"}`) to validate.
 
-### v3
+### Step 3
 
 Modification request (`POST`, `PUT`, `PATCH`, `DELETE`) will really affect the
 next responses.
