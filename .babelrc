@@ -1,0 +1,21 @@
+{
+  "presets"      : ["es2015-node6"],
+  "compact"      : false,
+  "plugins"      : [
+    ["transform-async-to-module-method", {"module": "bluebird", "method": "coroutine"}],
+    "transform-class-properties",
+    "syntax-trailing-function-commas"
+  ],
+  "highlightCode": true,
+  "sourceMaps"   : "both",
+  "minified"     : false,
+  "comments"     : true,
+  "env"          : {
+    "production": {
+      "highlightCode": false,
+      "sourceMaps"   : false,
+      "minified"     : true,
+      "comments"     : false
+    }
+  }
+}
