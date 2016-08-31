@@ -1,0 +1,4 @@
+---
+# To get more information of the rules: [http://eslint.org/docs/rules/]()
+env:
+  mocha: true

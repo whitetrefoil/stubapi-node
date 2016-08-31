@@ -1,0 +1,6 @@
+~playground/
+docs/
+node_modules/
+test_results/
+lib/
+lib_bak/
