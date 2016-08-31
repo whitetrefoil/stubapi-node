@@ -5,5 +5,6 @@ require('./dev/helpers').initialize();
 
 require('./dev/gulp/build');
 require('./dev/gulp/eslint');
+require('./dev/gulp/serve');
 require('./dev/gulp/ut');
 require('./dev/gulp/watch');
